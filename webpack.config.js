@@ -1,3 +1,4 @@
+import * as process from "babel-core/lib/transformation/file/options/config";
 var config = {
     entry: './main.js',
 
