@@ -1,4 +1,3 @@
-import * as process from "babel-core/lib/transformation/file/options/config";
 var config = {
     entry: './main.js',
 
@@ -9,7 +8,6 @@ var config = {
 
     devServer: {
         inline: true,
-        port: process.env.PORT || 5000
     },
 
     module: {
