@@ -1,4 +1,3 @@
-var port = process.env.PORT || 5000
 var config = {
     entry: './main.js',
 
@@ -9,7 +8,7 @@ var config = {
 
     devServer: {
         inline: true,
-        port: port
+        port: process.env.PORT || 5000
     },
 
     module: {
